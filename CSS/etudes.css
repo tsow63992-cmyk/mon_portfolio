@@ -1,0 +1,44 @@
+:root {
+    --dark-clr: #000000;
+    --second-dark-clr: #143c62;
+    --text-clr: #eaeaeade;
+    --text-clr2: black;
+    --light-text-clr:#85baff;
+    --global-clr: #004585;
+    --btn-clr: #80b5ff;
+}
+
+.titi{
+    background-color: var(--light-text-clr);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 15px var(--text-clr);
+    margin-top:25px;
+    margin-bottom: 25px;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+}
+
+.vider{
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+    gap: 25px;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 5px solid var(--global-clr);
+    box-shadow: 0 0 20px var(--text-clr);
+}
+
+
+

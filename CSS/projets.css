@@ -1,0 +1,106 @@
+:root {
+    --dark-clr: #000000;
+    --second-dark-clr: #143c62;
+    --text-clr: #eaeaeade;
+    --text-clr2: black;
+    --light-text-clr:#85baff;
+    --global-clr: #004585;
+    --btn-clr: #80b5ff;
+}
+
+#zone{
+    padding: 50px;
+}
+    
+#navigation ul{
+    color: var(--light-text-clr);
+    display:grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+    
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+.list{
+    color: var(--light-text-clr);
+    
+    border: 0.2px solid ;
+    border-radius: 40px;
+    padding: 30px;
+    width: 200px;
+    height: 100px;
+    display: block;
+    
+    background-color: var(--light-text-clr);
+    color:#000000;
+    text-align:center;
+    
+    font-size: 27px;
+    
+    
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.486);   
+    transition: 1s;
+}
+
+.list:hover{
+    box-shadow:0px 0px 40px #eaeaea;
+    background-color: var(--text-clr);
+}
+
+#titre{
+    text-align: center;
+    padding: 25px;
+    color: var(--light-text-clr);
+}
+
+#paragraphe{
+    margin-left:70px ;
+    margin-right: 70px;
+    font-size: 20px;
+}
+
+footer{
+    padding-bottom: 15px;
+}
+
+#iop{
+    background: url(../image/etude.png) ;
+    background-size: contain;
+    background-position: center;
+    text-shadow: 0 0 5px wheat,
+                 0 0 10px rgb(255, 255, 255);
+    font-weight: 100em;
+    font-size: 50px;
+}   
+
+#asdf{
+    background-image: url(../image/apres-etude.png) ;
+    background-size: contain; 
+    text-shadow: 0 0 5px wheat,
+                 0 0 10px rgb(255, 255, 255);
+    font-size: 45px;
+    
+}
+
+#genial{
+    background: url(../image/source_apprentissage.png) ;
+    background-size: contain;
+    background-position: center;
+    text-shadow: 0 0 5px wheat,
+                 0 0 10px rgb(255, 255, 255);
+    
+}
+
+#hjk{
+    background: url(../image/codage.png) no-repeat;
+    text-shadow: 0 0 5px wheat,
+                 0 0 10px rgb(255, 255, 255);
+    font-size: 50px;
+                 
+}
