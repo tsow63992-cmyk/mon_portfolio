@@ -9,10 +9,10 @@
 }
 
 .titi{
-    background-color: var(--light-text-clr);
+    background: linear-gradient(to right, rgb(12, 15, 22), var(--btn-clr),rgb(12, 15, 22));
     width: 100%;
     text-align: center;
-    box-shadow: 0 0 15px var(--text-clr);
+    
     margin-top:25px;
     margin-bottom: 25px;
     color: #000000;
@@ -29,7 +29,6 @@
     font-size: x-large;
     justify-content: center;
     align-items: center;
-
 }
 
 img{

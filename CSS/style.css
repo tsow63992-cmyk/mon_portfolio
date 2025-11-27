@@ -16,15 +16,8 @@
 *{
     margin: 0;
     padding:0;
-    
     text-decoration: none;
-    border: none;
-    outline: none;
-}
-
-html{
-    overflow-x: hidden;
-    line-height: normal;
+    
 }
 
 body{
@@ -40,25 +33,24 @@ body{
 header{
     width: 100%;
     background-color: var(--text-clr);
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-    padding: auto;
     height: 7em;
     box-shadow: 0 0 20px rgb(255, 255, 255);
     height: 100%;
-    flex-direction: column;
     
 }
 .accueil{
-    box-shadow: 0 0 0px var(--global-clr);
-    cursor: pointer;
-    transition: 1s ease-in-out;
+    display: flex;
+    transition: 0.7s ;
+    border-radius: 10px;
 }
 .accueil:hover{
-    box-shadow :0 0 25px var(--global-clr)
+    box-shadow :0 0 25px var(--global-clr);
+    background-color: var(--btn-clr);
+    transform: scale(1.1);
+    
 }
 
-.a{
+.navigation{
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -67,7 +59,7 @@ header{
     
 }
 
-header .a{
+header .navigation{
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -83,19 +75,19 @@ header .a{
     color: var(--light-text-clr);
 }
 
-.a ul{
+.navigation ul{
     display: flex;
     gap: 1px;
     list-style:none;
     position: relative;
 }
 
-header .a ul li{
+header .navigation ul li{
     position: relative;
     margin-right: 0em;
 }
 
-.a ul li a {
+.navigation ul li a {
     position: relative;
     font-size: 1em;
     font-weight: 700;
@@ -119,14 +111,14 @@ header .a ul li{
     padding: 1em;
     border-radius: 0.5em;
     box-shadow: 0 0 0.5em var(--second-dark-clr);
-    cursor: pointer;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .b:hover{
     box-shadow: 0 0 0.5em var(--second-dark-clr),
                 0 0 1em var(--second-dark-clr),
                 0 0 1.5em var(--second-dark-clr);
+    transform: scale(1.1);
 }
 
 section{
@@ -136,14 +128,12 @@ section{
 
 
 .y {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: normal 10%;
+    flex-wrap: wrap;
     gap: 50px;
     margin-top: 25px;
-    
 }
 
 .w img{
@@ -151,37 +141,21 @@ section{
     height: 250px;
     width: 250px;
     border: #0c2033 solid 5px;
-    min-width: auto;
-    transition: 1s;
-    box-shadow: 0 0 2.5em rgba(205, 210, 255, 0.798)
+    
+    transition: 0.7s;
+    box-shadow: 0 0 30px rgba(205, 210, 255, 0.798)
 }
 .w img:hover{
-    box-shadow: 0 0 2.5em rgba(205, 210, 255, 0.798),
-                0 0 5em rgba(205, 210, 255, 0.798),
-                0 0 10em rgba(205, 210, 255, 0.798);
+    box-shadow: 0 0 15px rgba(205, 210, 255, 0.798),
+                0 0 25px rgba(205, 210, 255, 0.798),
+                0 0 50px rgba(205, 210, 255, 0.798);
+    transform: scale(1.1);
 }
 .k{
     max-width: 50%;
-}
-
-.k h3{
     font-size: x-large;
-    
 }
 
-.k h1{
-    font-size: xx-large;
-    
-    
-}
-
-
-
-
-.k h2{
-    font-size: xx-large;
-    
-}
 
 .k h2 span{
     color: var(--light-text-clr);
@@ -189,20 +163,11 @@ section{
 
 .k p{
     font-size: x-large;
-    margin: auto;
+    
 }
 
-
-
-
-.l:hover{
-    box-shadow: 0px 0px 10px var(--global-clr);
+footer{  
+    padding: 20px;
 }
-
-footer{
-    padding-bottom: 25px;
-    padding-left: 25px;
-}
-
 
 

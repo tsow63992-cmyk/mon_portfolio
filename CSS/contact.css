@@ -1,0 +1,100 @@
+:root {
+--noir: #000000;
+--bleu_noir: #143c62;
+--text-clr: #eaeaeade;
+--text-clr2: black;
+--light-text-clr:#85baff;
+--global-clr: #004585;
+--btn-clr: #80b5ff;
+}
+
+#myself{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: large;
+}
+
+h1{
+    color: var(--noir);
+    font-size: xx-large;
+    background: linear-gradient(to right,  var(--btn-clr),rgb(12, 15, 22));
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 30%;
+    
+}
+
+#data{
+    color: var(--btn-clr);
+    text-transform: uppercase;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.couleur{
+    color: var(--light-text-clr);
+    
+}
+
+#formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+fieldset{
+    border: 2px solid var(--bleu_noir);
+    border-radius: 15px;
+    padding: 15px;
+    color: var(--noir);
+    box-shadow: 0 0 15px var(--btn-clr);
+    background: linear-gradient(to right, var(--text-clr), var(--btn-clr),var(--text-clr));
+    width: 300px;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#perso{
+    text-align: center;
+    background: linear-gradient(to right, rgb(78, 97, 142), var(--btn-clr),rgb(75, 95, 139));
+    font-size: x-large;
+    color: #000000;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#dinde{
+    font-size: x-large;
+}
+
+button{
+    background-color: var(--btn-clr);
+    color: var(--noir);
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px var(--btn-clr);
+    transition: 0.7s;
+    margin-top: -40px;
+    width: 200px;
+    
+}
+
+button:hover{
+    
+    box-shadow: 0 0 25px var(--text-clr);
+    transform: scale(1.2);
+}

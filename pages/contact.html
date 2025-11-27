@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="a">
+        <nav class="navigation">
             <a href="#" class="c">port<span>folio</span></a>
             <ul>
                 <li><a href="../index.html" class="accueil">Accueil</a></li>
@@ -20,20 +20,69 @@
                 <li><a href="./contact.html" class="accueil">Contact</a></li>
                 <li><a href="./propos.html" class="accueil">A propos</a></li>
             </ul>
-            <a href="https://fr.wikipedia.org/wiki/Guin%C3%A9e" class="b" target="_blank">A propos de la Guinee</a>
+             <a href="https://github.com/tsow63992-cmyk/mon_portfolio" class="b" target="_blank">Mon depot github</a>
         </nav>
     </header>
     <main>
-      
-    <h1>Contact</h1>
-    <p>Vous pouvez me joindre par email/téléphone.</p>
+        <section id="myself">
+            <h1>Contact</h1>
+            <p>Vous pouvez me joindre par email/téléphone.</p>
 
   
-    <h2>Coordonnées</h2>
-    <p>Email : <a href="mailto:tsow63992@gmail.com">tsow63991@gmail.com</a></p>
-    <p>Téléphone : <a href="">+33 7 69 83 44 83</a></p>
-    <p>Adresse : Calais, France</p>
+            <h2 id="data">Coordonnées</h2>
+            <p >Email : <a href="mailto:tsow63992@gmail.com" class="couleur">tsow63992@gmail.com</a></p>
+            <p >Téléphone : <a href="tel:+33769834483" class="couleur">+33 7 69 83 44 83</a></p>
+            <p>Adresse : &#128205;Calais, France</p>
+        </section>
+
+        <section id="formulaire">
+            <form >
+    
+                <h2 id="perso">Informations Personnelles</h2>
+                <p id="dinde">Veuillez fournir les informations demandées.</p>
+    
+                <hr> 
+    
+                <fieldset>
+        
+                    <label for="nom">Nom :</label><br>
+                    <input type="text" id="nom" name="Nom" placeholder="Ex: peps" required><br><br>
+        
+                    <label for="prenom">Prénom :</label><br>
+                    <input type="text" id="prenom" name="Prenom" placeholder="Ex: john" required><br><br>
+
+                    <label for="anniversaire">Date de Naissance :</label><br>
+                    <input type="date" id="anniversaire" name="Date_Naissance" required><br><br>
+
+                    <label for="age">Âge :</label><br>
+                    <input type="number" id="age" name="Age" min="1" max="100" required><br><br>
+
+                    <label for="tel">Numéro de Téléphone :</label><br>
+                    <input type="tel" id="tel" name="Numero_Telephone" pattern="[0-9]{10}" placeholder="Ex: 0123456789"><br><br>
+
+                    <label for="pays">Votre Pays de Résidence :</label><br>
+                    <select id="pays" name="Pays_Residence" required>
+                        <option value="">-- Choisir un pays --</option>
+                        <option value="FR">France</option>
+                        <option value="BE">Belgique</option>
+                        <option value="CH">Suisse</option>
+                        <option value="CA">Canada</option>
+                        <option value="AUTRE">Autre</option>
+                    </select>
+                    <br><br>
+
+                </fieldset>
+    
+                <br>
+
+                <button type="submit"><strong>Valider</strong></button>
+
+            </form>
+        </section>
     </main>
+    <footer>
+        &copy;2025-Ce site est reserve a des droits d'auteur.
+    </footer>
 </body>
 </html>
 
