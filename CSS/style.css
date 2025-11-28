@@ -153,7 +153,7 @@ section{
 }
 .k{
     max-width: 50%;
-    font-size: 1rem;
+    font-size: medium;
 }
 
 
@@ -161,10 +161,7 @@ section{
     color: var(--light-text-clr);
 }
 
-.k p{
-    font-size: 1rem;
-    
-}
+
 
 
 
