@@ -18,10 +18,10 @@
 #mon h2{
     color: var(--light-text-clr);
     margin-top: 25px;
-    font-size:xx-large;
+    font-size:x-large;
 
 }
 
 #mon p{
-    font-size: x-large;
+    font-size: 1rem;
 }

@@ -14,7 +14,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    font-size: x-large;
+    font-size: 1.3rem;
     padding-bottom: 50px;
     
 }
@@ -23,7 +23,7 @@ main{
 
 h2{
     color: var(--noir);
-    font-size: xx-large;
+    font-size: x-large;
     background: linear-gradient(to right, rgb(12, 15, 22), var(--btn-clr),rgb(12, 15, 22));
     width: 100%;
     text-align: center;
@@ -47,8 +47,8 @@ button:hover{
 }
 
 #etude{
-    font-size: xx-large;
-    height: 90px;
+    font-size: x-large;
+    height: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
