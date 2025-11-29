@@ -22,7 +22,7 @@
 
 body{
     font-family: "DMSerifText-Regular";
-    background: url(../image/ciel.png) center  ;
+    background: rgb(14, 25, 47);
     background-size: cover;
     color: var(--text-clr);
     line-height: 1,3;
