@@ -156,5 +156,9 @@ main{
         font-size: 1.5rem;
         width:20%
     }
+
+    .navigation{
+        padding: 0.3em;
+    }
 }
 
