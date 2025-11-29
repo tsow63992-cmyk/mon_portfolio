@@ -13,6 +13,7 @@
     flex-direction: column;
     gap: 10px;
     font-size: large;
+    margin: 1%;
 }
 
 h1{
@@ -45,6 +46,7 @@ h1{
     margin-top: 20px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2.5%;
     
 }
 
@@ -57,6 +59,18 @@ fieldset{
     background: linear-gradient(to right, var(--text-clr), var(--btn-clr),var(--text-clr));
     width: 300px;
     
+}
+
+input{
+    border-radius: 5px;
+    background-color: var(--text-clr);
+    height: 1.7em;
+}
+
+select{
+    border-radius: 5px;
+    background-color: var(--text-clr);
+    height: 2em;
 }
 
 form{
@@ -97,4 +111,18 @@ button:hover{
     
     box-shadow: 0 0 25px var(--text-clr);
     transform: scale(1.2);
+}
+
+@media(max-width:600px){
+    button{
+        margin-bottom: 10%;
+    }
+    #myself{
+        margin: 3%;
+    }
+    #dinde{
+        font-size: 1.3rem;
+    }
+    
+    
 }

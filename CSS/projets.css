@@ -99,3 +99,34 @@ footer{
 footer {
     margin-top: -7px;
 }
+
+@media(max-width:600px){
+    #zone{
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    #navigation ul{
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .list{
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        padding: 20px;
+    }
+    
+    #paragraphe{
+        margin-left:10px ;
+        margin-right: 10px;
+        
+    }
+    #iop{
+        font-size: 40px;
+    }
+    #asdf{
+        font-size: 35px;
+    }
+}

@@ -10,7 +10,6 @@
 
 #mon {
    margin: 50px;
-   justify-content: center;
    text-align: center;
    padding: 25px;
 }
@@ -24,4 +23,18 @@
 
 #mon p{
     font-size: 1rem;
+}
+
+@media(max-width:600px){
+    body{
+        height: 100vh;
+    }
+    #mon{
+        margin: 0px;
+        padding: 10px;
+       
+    }
+    main{
+        height:80%;
+    }
 }
