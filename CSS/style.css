@@ -160,5 +160,9 @@ main{
     .navigation{
         padding: 0.3em;
     }
+    .w img{
+        height: 150px;
+        width: 150px;
+    }
 }
 
