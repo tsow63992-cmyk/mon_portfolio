@@ -1,23 +1,24 @@
+/*importation de la police*/
 @font-face {
     font-family: "DMSerifText-Regular" ;
     src: url(../DMSerifText-Regular.ttf);
 }
 
+/*initialisation des couleur pour les utiliser en attroibuant a chaque variable une couleur*/
 :root {
-    --dark-clr: #000000;
-    --second-dark-clr: #143c62;
+    --Noir: #000000;
+    --bleu-fonce: #143c62;
     --text-clr: #eaeaeade;
-    --text-clr2: black;
     --light-text-clr:#85baff;
     --global-clr: #004585;
     --btn-clr: #80b5ff;
 }
 
+/*reset global.....enleve le soulignement des textes par defaut(pour le none)*/
 *{
     margin: 0;
     padding:0;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 body{
@@ -32,6 +33,7 @@ body{
 header{
     background-color: var(--text-clr);
     box-shadow: 0 0 20px rgb(255, 255, 255);
+    height: 15%;
 }
 .accueil{
     display: flex;
@@ -56,7 +58,7 @@ header{
 
 .c{
     font-size: 2rem;
-    color: var(--text-clr2);
+    color: var(--Noir);
 }
 
 .c span{
@@ -80,16 +82,29 @@ header{
     font-size: 1rem;
     font-weight: 600;
     background: var(--btn-clr);
-    color: var(--dark-clr);
+    color: var(--Noir);
     padding: 1em;
     border-radius: 0.5em;
-    box-shadow: 0 0 0.5em var(--second-dark-clr);
+    box-shadow: 0 0 0.5em var(--bleu-fonce);
     transition: 0.7s;
 }
 
 .b:hover{
-    box-shadow:0 0 1.5em var(--second-dark-clr);
+    box-shadow:0 0 1.5em var(--bleu-fonce);
     transform: scale(1.1);
+}
+
+#princip{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 5em;
+    background-color: #151d2ad5 ;
+    border: #000000 1.5px solid;
 }
 
 .y {
@@ -99,7 +114,17 @@ header{
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 4%;
-    margin-bottom: 15em;
+    margin-bottom: 10em;
+    font-size: 1.25rem;
+    background-color: #151d2ad5 ;
+    width: 70%;
+    padding: 1em;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.y:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 1em var(--bleu-fonce);
 }
 
 .w img{
@@ -108,12 +133,16 @@ header{
     width: 200px;
     border: #0c2033 solid 5px;
     transition: 0.7s;
-    box-shadow: 0 0 30px rgba(205, 210, 255, 0.798)
+    box-shadow: 0 0 30px var(--bleu-fonce);
 }
 
 .w img:hover{
-    box-shadow: 0 0 50px rgba(205, 210, 255, 0.798);
+    box-shadow: 0 0 50px var(--bleu-fonce);
     transform: scale(1.1);
+}
+
+.k{
+    max-width: 60%;
 }
 
 .k h2 span{
@@ -130,6 +159,7 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        max-width: none;
     }
 
     .b{
@@ -159,4 +189,5 @@ header{
         width: 150px;
     }
 }
+
 

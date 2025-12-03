@@ -12,6 +12,7 @@
    margin: 50px;
    text-align: center;
    padding: 25px;
+   margin-bottom: 8.5em;
 }
 
 #mon h2{
@@ -22,7 +23,7 @@
 }
 
 #mon p{
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 @media(max-width:600px){
