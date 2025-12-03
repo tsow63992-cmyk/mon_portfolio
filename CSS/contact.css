@@ -54,9 +54,9 @@ fieldset{
     border: 2px solid var(--bleu_noir);
     border-radius: 15px;
     padding: 15px;
-    color: var(--noir);
+    color: var(--text-clr);
     box-shadow: 0 0 15px var(--btn-clr);
-    background: linear-gradient(to right, var(--text-clr), var(--btn-clr),var(--text-clr));
+    background: #151d2ad5;
     width: 300px;
     
 }

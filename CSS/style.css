@@ -4,7 +4,7 @@
     src: url(../DMSerifText-Regular.ttf);
 }
 
-/*initialisation des couleur pour les utiliser en attroibuant a chaque variable une couleur*/
+/*initialisation des couleur pour les utiliser en attribuant a chaque variable une couleur*/
 :root {
     --Noir: #000000;
     --bleu-fonce: #143c62;
@@ -33,8 +33,8 @@ body{
 header{
     background-color: var(--text-clr);
     box-shadow: 0 0 20px rgb(255, 255, 255);
-    height: 15%;
 }
+
 .accueil{
     display: flex;
     transition: 0.7s ;
